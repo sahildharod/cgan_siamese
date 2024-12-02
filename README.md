@@ -1,1 +1,3 @@
-# cgan_siamese
+## CGAN with Siamese Network
+
+This is done as a part of the course EE782 : Advanced Topics in Machine Learning. I implemented a Siamese Network from scratch and used the triplet loss to train the network for the task of face recognition. Later, I also built a GAN to generate images of faces. As a modification to the original architecture, instead of the conventional discriminator, I used the Siamese Network as the discriminator and used the similarity score between real and fake images to train the generator. Finally, we made small modifications to the overall GAN architecture to make it a CGAN, which generates images of a specific person.
